@@ -4,7 +4,10 @@
     "description": "Aprendizado de Cypress.io",
     "main": "cypress.config.js",
     "scripts": {
-        "test": "cypress run"
+        "lint": "npx standard",
+        "lint:fix": "npx standard --fix",
+        "test": "cypress run --reporter nyan",
+        "cy:open": "cypress open"
     },
     "repository": {
         "type": "git",

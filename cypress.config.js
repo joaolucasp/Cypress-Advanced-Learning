@@ -1,14 +1,14 @@
 const { defineConfig } = require('cypress')
 
 module.exports = defineConfig({
-    e2e: {
-        baseUrl: "https://wlsf82-hacker-stories.web.app",
-        env: {
-            hideCredentials: true,
-            requestMode: true,
-        },
-        experimentalRunAllSpecs: true,
+  e2e: {
+    baseUrl: 'https://wlsf82-hacker-stories.web.app',
+    env: {
+      hideCredentials: true,
+      requestMode: true
     },
-    fixturesFolder: false,
-    video: false,
+    experimentalRunAllSpecs: true
+  },
+  fixturesFolder: false,
+  video: false
 })
