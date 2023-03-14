@@ -1,0 +1,29 @@
+{
+    "name": "curso-avancado-cypress-learning",
+    "version": "1.0.0",
+    "description": "Aprendizado de Cypress.io",
+    "main": "cypress.config.js",
+    "scripts": {
+        "test": "cypress run"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joaolucaspsousa/Cypress-Advanced-Learning"
+    },
+    "keywords": [
+        "Cypress avançado"
+    ],
+    "author": "João Lucas <joaosousa@tokenlab.com.br>",
+    "license": "MIT",
+    "homepage": "https://github.com/joaolucaspsousa/Cypress-Advanced-Learning",
+    "bugs": {
+        "url": "https://github.com/joaolucaspsousa/Cypress-Advanced-Learning/issues"
+    },
+    "devDependencies": {
+        "@faker-js/faker": "^7.6.0",
+        "cypress": "^12.0.2",
+        "cypress-plugin-api": "^2.6.1",
+        "cypress-localstorage-commands": "^1.4.1",
+        "standardjs": "^1.0.0-alpha"
+    }
+}

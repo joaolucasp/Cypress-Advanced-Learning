@@ -1,0 +1,27 @@
+# Cypress Files
+cypress/downloads/
+cypress/screenshots/
+cypress/videos/
+cypress.env.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# NodeJs compiled output
+node_modules
+dist
+dist-ssr
+*.local
